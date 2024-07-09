@@ -1,0 +1,49 @@
+.shopTitle{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.shopTitle  h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.shopTitle h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #5E6996;
+    font-style: italic;
+}
+
+.products{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.product{
+    width: 275px;
+    height: 420px;
+    margin: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-color: #8594d2;
+    border-style: solid;
+}
+
+.product .description{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font: italic;
+    font-size: large;
+}
+
+.product img{
+    width: 250px;
+    height: 300px;
+}

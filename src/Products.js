@@ -6,6 +6,7 @@ import product5 from "./assets/Large_bunny.png"
 import product6 from "./assets/Mushroom.png"
 import product7 from "./assets/Parakeet.png"
 import product8 from "./assets/Pinkies.png"
+import product9 from "./assets/anime_stickers.png"
 
 export const PRODUCTS = [
     {
@@ -55,5 +56,11 @@ export const PRODUCTS = [
         productName: "Pinkies",
         price: 12.0,
         productImage: product8
+    },
+    {
+        id: 9,
+        productName: "Stickers",
+        price: 8.0,
+        productImage: product9
     },
 ]

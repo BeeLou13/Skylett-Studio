@@ -1,6 +1,7 @@
 import React from "react";
 import { PRODUCTS } from "../../Products"
 import { Product } from "./product"
+// import { background } from "../../assets/spirals.jpg"
 import "./shop.css"
 
 export const Shop = () => {
@@ -11,7 +12,7 @@ export const Shop = () => {
                 Skylett Studios
             </h1>
             <h6>
-            Crochet, Stickers, and more...
+                Crochet, Stickers, and more...
             </h6>
         </div>
         <div className="products"> 
